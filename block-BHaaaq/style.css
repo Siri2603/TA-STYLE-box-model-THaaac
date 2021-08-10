@@ -130,51 +130,44 @@ table {
 
 /* customaside */
 
-.heading {
+h1 {
   font-size: 36px;
-  padding: 16px;
+  margin: 32px;
 }
-.box1 {
-  width: 50px;
-  height: 50px;
-  border: 2px solid black;
-  background-color: brown;
-  padding: 24px;
+.box {
+  width: 180px;
+  height: 100px;
+  border: 10px solid black;
+  background-color: crimson;
+  display: inline-block;
+  margin: 40px;
 }
-.box2 {
-  width: 50px;
-  height: 50px;
-  border: 2px solid black;
-  background-color: brown;
-  padding: 24px;
+.double {
+  border-style: double;
 }
-.box3 {
-  width: 50px;
-  height: 50px;
-  border: 2px dashed black;
-  background-color: brown;
-  padding: 24px;
+.dashed {
+  border-style: dashed;
 }
-.box4 {
-  width: 50px;
-  height: 50px;
-  border: 2px dotted black;
-  background-color: brown;
-  padding: 24px;
+.dotted {
+  border-style: dotted;
 }
-.box5 {
-  width: 50px;
-  height: 50px;
-  border: 2px;
-  background-color: brown;
-  padding: 24px;
-  margin: 20px;
+.none {
+  border: 0;
 }
-.paragraph {
-  width: 150px;
-  height: 240px;
-  margin: 5px;
+p {
+  width: 400px;
   background-color: red;
   padding: 24px;
-  font-size: 14px;
+  font-size: 24px;
+  color: white;
+  border-top: 10px solid blue;
+  border-right: 10px solid gray;
+  border-bottom: 10px solid yellow;
+  border-left: 10px solid green;
+}
+.para-container {
+  background-color: indigo;
+  padding: 48px 32px;
+  display: inline-block;
+  margin: 32px;
 }
