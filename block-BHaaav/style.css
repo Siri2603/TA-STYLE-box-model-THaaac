@@ -132,53 +132,80 @@ table {
 
 h1 {
   font-size: 48px;
-  margin-bottom: 20px;
-  color: white;
+  margin-bottom: 16px;
 }
 .header {
   text-align: center;
-  margin-bottom: 100px;
+  background-color: #2e313f;
+  padding: 32px 0;
 }
-a {
+.header a {
   color: white;
   text-transform: uppercase;
   font-size: 14px;
+  text-decoration: none;
+  margin: 0 16px;
 }
 body {
-  background-color: black;
   line-height: 1.5;
-  padding: 0 180px;
-  /* padding-bottom: 0; */
+  font-size: 16px;
+  color: white;
+  /* padding-bottom: 400px; */
+}
+.container {
+  width: 1160px;
+  margin: 0 auto;
 }
 hr {
-  width: 1000px;
-  border-style: solid;
-  border-color: gray;
   margin: 32px auto;
+  border: 0;
+  border-bottom: 2px solid #999;
 }
-h2 {
-  font-size: 36px;
-  color: white;
+.hero {
+  background-color: #2e313f;
+  padding: 120px 0;
+}
+.hero-heading {
+  font-size: 32px;
   text-transform: uppercase;
 }
-h3 {
-  font-size: 24px;
-  color: white;
-  margin-bottom: 20px;
-  margin-top: 50px;
-}
-p {
-  color: white;
-  font-size: 12px;
-  margin-bottom: 10px;
+.hero-text {
+  text-transform: uppercase;
+  font-size: 20px;
 }
 img {
   width: 150px;
   height: 150px;
   border-radius: 100%;
+  object-fit: cover;
 }
-footer {
+.blog {
+  background-color: #4c5c96;
+  padding: 60px 0;
+}
+.heading {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.article-text {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+.article-link {
   color: white;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.blog-two {
+  background-color: #45548d;
+}
+.blog-three {
+  background-color: #3f4e85;
+}
+.footer {
   font-size: 12px;
-  margin: 30px 0;
+  background-color: #2e313f;
+  padding: 40px 0;
 }
