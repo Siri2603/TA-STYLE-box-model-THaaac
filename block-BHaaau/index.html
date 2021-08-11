@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Box Model Assignment Level 2</title>
+    <title>Box Model Assignment Level 3</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -14,39 +14,51 @@
     <hr />
     <main>
       <section>
-        <h3>Exercise 1</h3>
-        <div class="box">box</div>
-        <hr />
+        <h2>Exercise 1</h2>
+        <div class="box"></div>
+        <div class="marker-container">
+          <div class="marker">
+            <span class="circle content"></span>
+            <span>Content</span>
+          </div>
+          <div class="marker">
+            <span class="circle padding"></span>
+            <span>Padding</span>
+          </div>
+          <div class="marker">
+            <span class="circle border"></span>
+            <span>Border</span>
+          </div>
+          <div class="marker">
+            <span class="circle margin"></span>
+            <span>Margin</span>
+          </div>
+        </div>
       </section>
+      <hr />
       <section>
-        <h3>Exercise 2</h3>
+        <h2>Exercise 2</h2>
         <p>no border on these boxes.</p>
-        <div class="ex2">
-          <div class="box">box</div>
-          <div class="box">box</div>
-          <div class="box">box</div>
+        <div class="container">
+          <div class="child-box">box</div>
+          <div class="child-box">box</div>
+          <div class="child-box">box</div>
         </div>
         <hr />
-      </section>
-      <section>
         <p>1px border on these boxes.</p>
-        <div class="ex2">
+        <div class="container">
           <div>
-            <div class="box">box</div>
-            <div class="box">box</div>
-          </div>
-          <div>
-            <div class="box">box</div>
+            <div class="child-box border">box</div>
+            <div class="child-box border">box</div>
+            <div class="child-box border">box</div>
           </div>
         </div>
         <hr />
-      </section>
-      <section>
         <p>1px border on these boxes but they are in same line.</p>
-        <div class="ex2">
-          <div class="box">box</div>
-          <div class="box">box</div>
-          <div class="box">box</div>
+        <div class="container">
+          <div class="child-box border border-box">box</div>
+          <div class="child-box border border-box">box</div>
+          <div class="child-box border border-box">box</div>
         </div>
       </section>
     </main>
